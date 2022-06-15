@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.temp {
+  z-index: -1;
+  position: absolute; }
+
+body::-webkit-scrollbar {
+  width: .2em; }
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8); }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fdbb04;
+  outline: 1px solid #fdbb04;
+  border-radius: 15%; }
+
+html {
+  padding: 0;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+  @media screen and (max-width: 68.75em) {
+    html {
+      font-size: 70%; } }
+  @media screen and (max-width: 62.5em) {
+    html {
+      font-size: 65%; } }
+  @media screen and (max-width: 56.25em) {
+    html {
+      font-size: 62%; } }
+  @media screen and (max-width: 39.5em) {
+    html {
+      font-size: 57%; } }
+  @media screen and (max-width: 31.25em) {
+    html {
+      font-size: 55%; } }
+
+::selection {
+  background-color: #fdbb04;
+  color: #fbfbfb; }
+
+a,
+a::after,
+a::before {
+  color: #fdbb04;
+  text-decoration: none; }
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 0.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 2rem !important; }
+  @media screen and (max-width: 62.5em) {
+    .u-margin-top-medium {
+      margin-top: 1.5rem !important; } }
+  @media screen and (max-width: 39.5em) {
+    .u-margin-top-medium {
+      margin-top: 3rem; } }
+
+.u-margin-top-big {
+  margin-top: 5rem !important; }
+  @media screen and (max-width: 62.5em) {
+    .u-margin-top-big {
+      margin-top: 4rem !important; } }
+  @media screen and (max-width: 56.25em) {
+    .u-margin-top-big {
+      margin-top: 2rem; } }
+  @media screen and (max-width: 39.5em) {
+    .u-margin-top-big {
+      margin-top: 4rem; } }
+
+.u-margin-top-huge {
+  margin-top: 9rem !important; }
+
+.heading__primary {
+  font-size: 4vw;
+  margin-top: -1; }
+  @media screen and (max-width: 39.5em) {
+    .heading__primary {
+      font-size: 6vh; } }
+
+.heading__secondary {
+  font-size: 3vw; }
+  @media screen and (max-width: 39.5em) {
+    .heading__secondary {
+      font-size: 4vh; } }
+
+.heading__tert {
+  font-size: 4vw; }
+  @media screen and (max-width: 39.5em) {
+    .heading__tert {
+      font-size: 3vh; } }
+
+.small__letters {
+  font-size: 2vw;
+  font-weight: lighter; }
+  @media screen and (max-width: 39.5em) {
+    .small__letters {
+      font-size: 2vh; } }
+
+.adress {
+  font-size: 3vw;
+  padding: 1rem; }
+  @media screen and (max-width: 39.5em) {
+    .adress {
+      font-size: 3vh;
+      padding: 0 5rem; } }
+
+.blur-bg {
+  background-color: rgba(255, 221, 0, 0.9);
+  padding: 1rem 2rem;
+  border-radius: 50rem;
+  color: #252525; }
+
+.tel-icon {
+  height: 5rem;
+  width: 5rem; }
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.817)), url(https://hostelkirov.com/wp-content/uploads/2021/02/hd-hostel-kirov-premium-for-two-3-1.jpg);
+  background-size: cover;
+  color: #e9e9e9; }
+
+.header__buttons {
+  position: fixed;
+  top: 1rem;
+  right: 1rem; }
+  @media screen and (max-width: 39.5em) {
+    .header__buttons {
+      top: 2rem;
+      right: 2rem; } }
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw; }
+  .contacts__wtsp {
+    height: 5rem;
+    width: 5rem; }
